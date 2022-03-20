@@ -16,11 +16,11 @@ const medium = ({amount, setAmount, userName}) => {
     const questionPrice = 300
 
     // Very Easy Level Questions
-    const question_1 = new Questions ('Capital de Canada', 'Toronto', 'No Es', 'No Es', 'No Es', 'Toronto', 'retire')
-    const question_2 = new Questions ('Capital de Colombia', 'No es', 'Bogota', 'No Es', 'Answer 4', 'Bogota', 'retire')
-    const question_3 = new Questions ('Capital de Ecuador', 'No Es', 'No Es', 'Quito', 'No Es', 'Quito', 'retire')
-    const question_4 = new Questions ('Capital de Jamica', 'No es', 'No Es', 'No Es', 'Kingstone', 'Kingstone', 'retire')
-    const question_5 = new Questions ('Capital de USA', 'Washinton', 'No Es', 'No Es', 'No Es', 'Washinton', 'retire')
+    const question_1 = new Questions ('Mejor Universidad para developer training:', 'Harvard', 'MIT', 'Sofka U', 'Yale', 'Sofka U', 'retire')
+    const question_2 = new Questions ('Lenguaje de bajo nivel:', 'Reggaeton', 'JavaScript', 'Guaracha', 'Assembler', 'Assembler', 'retire')
+    const question_3 = new Questions ('Forma de pasar datos entre componentes de ReactJS:', 'Por e-mail', 'Con props', 'Por telepatía', 'Con señales de humo', 'Con props', 'retire')
+    const question_4 = new Questions ('Qué es herencia en POO:', 'Lo que pelean los tíos', 'Relación entre clases abstractas', 'Lo que no se hurta', 'La finca del abuelo', 'Relación entre clases abstractas', 'retire')
+    const question_5 = new Questions ('¿A qué se dedica un programador?', 'Procastinar', 'Convertir café en código', 'Jugar Freefire', 'No sé', 'Convertir café en código', 'retire')
 
     // Array Of Questions
     const questions = [question_1, question_2, question_3, question_4,  question_5]

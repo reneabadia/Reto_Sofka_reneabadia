@@ -16,11 +16,11 @@ const Hard = ({amount, setAmount, userName}) => {
     const questionPrice = 400
 
     // Very Easy Level Questions
-    const question_1 = new Questions ('Capital de Canada', 'Toronto', 'No Es', 'No Es', 'No Es', 'Toronto', 'retire')
-    const question_2 = new Questions ('Capital de Colombia', 'No es', 'Bogota', 'No Es', 'Answer 4', 'Bogota', 'retire')
-    const question_3 = new Questions ('Capital de Ecuador', 'No Es', 'No Es', 'Quito', 'No Es', 'Quito', 'retire')
-    const question_4 = new Questions ('Capital de Jamica', 'No es', 'No Es', 'No Es', 'Kingstone', 'Kingstone', 'retire')
-    const question_5 = new Questions ('Capital de USA', 'Washinton', 'No Es', 'No Es', 'No Es', 'Washinton', 'retire')
+    const question_1 = new Questions ('Youtuber con más subscriptores:', 'Epa Colombia', 'La Liendra', 'PewDiePie', 'Luisito Comunica', 'PewDiePie', 'retire')
+    const question_2 = new Questions ('Sabio refrán: El que no tiene más...', '... pide prestado', '... con su mujer se acuesta', '... lo reportan en Datacrédito', '... compra fiado.', '... con su mujer se acuesta', 'retire')
+    const question_3 = new Questions ('¿Por qué se suicidió Romeo?', 'Escuchó a Bad Bunny', 'Ganó El Balotó y perdió el boelto', 'Creyó que Julieta había muerto', 'Invirtió en DMG', 'Creyó que Julieta había muerto', 'retire')
+    const question_4 = new Questions ('¿Cómo se llaman los deportistas que practican Judo?', 'Ninjas', 'Paracos', 'Judokas', 'Neas', 'Judokas', 'retire')
+    const question_5 = new Questions ('¿Cómo perder dinero rápidamente?:', 'Prestar dinero a un familiar', 'Invertir en multinivel', 'Pagar peaje', 'Todas las anteriores', 'Todas las anteriores', 'retire')
 
     // Array Of Questions
     const questions = [question_1, question_2, question_3, question_4,  question_5]

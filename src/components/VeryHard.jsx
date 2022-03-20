@@ -15,11 +15,11 @@ const VeryHard = ({amount, setAmount, userName}) => {
     const questionPrice = 500
 
     // Very Easy Level Questions
-    const question_1 = new Questions ('Capital de Canada', 'Toronto', 'No Es', 'No Es', 'No Es', 'Toronto', 'retire')
-    const question_2 = new Questions ('Capital de Colombia', 'No es', 'Bogota', 'No Es', 'Answer 4', 'Bogota', 'retire')
-    const question_3 = new Questions ('Capital de Ecuador', 'No Es', 'No Es', 'Quito', 'No Es', 'Quito', 'retire')
-    const question_4 = new Questions ('Capital de Jamica', 'No es', 'No Es', 'No Es', 'Kingstone', 'Kingstone', 'retire')
-    const question_5 = new Questions ('Capital de USA', 'Washinton', 'No Es', 'No Es', 'No Es', 'Washinton', 'retire')
+    const question_1 = new Questions ('Luna más grande de Saturno: ', 'Hawaii', 'Rea', 'Titán', 'Nassau', 'Titán', 'retire')
+    const question_2 = new Questions ('Película más taquillera de la historia:', 'Titanic', 'Vengadores', 'Ávatar', 'StarWars: Episodio VII', 'Ávatar', 'retire')
+    const question_3 = new Questions ('Ciudad más poblada del mundo:', 'New York', 'Pekín', 'Shangai', 'Tokio', 'Tokio', 'retire')
+    const question_4 = new Questions ('Elemento más caro del mundo:', 'Platino', 'Antimateria', 'Diamante', 'Grafeno', 'Antimateria', 'retire')
+    const question_5 = new Questions ('Galaxia más cercana a la tierra:', 'Aldebarán', 'Andrómeda', 'Vía Láctea', 'Osa Mayor', 'Andrómeda', 'retire')
 
     // Array Of Questions
     const questions = [question_1, question_2, question_3, question_4,  question_5]

@@ -16,11 +16,11 @@ const VeryEasy = ({amount, setAmount, userName}) => {
     const questionPrice = 100
 
     // Very Easy Level Questions
-    const question_1 = new Questions ('Capital de Canada', 'Toronto', 'No Es', 'No Es', 'No Es', 'Toronto', 'retire')
-    const question_2 = new Questions ('Capital de Colombia', 'No es', 'Bogota', 'No Es', 'Answer 4', 'Bogota', 'retire')
-    const question_3 = new Questions ('Capital de Ecuador', 'No Es', 'No Es', 'Quito', 'No Es', 'Quito', 'retire')
-    const question_4 = new Questions ('Capital de Jamica', 'No es', 'No Es', 'No Es', 'Kingstone', 'Kingstone', 'retire')
-    const question_5 = new Questions ('Capital de USA', 'Washinton', 'No Es', 'No Es', 'No Es', 'Washinton', 'retire')
+    const question_1 = new Questions ('¿Quién es el próximo sofkiano?', 'Gustavo Petro', 'Fico Gutiérrez', 'Álvaro Uribe', 'René Abadía', 'René Abadía', 'retire')
+    const question_2 = new Questions ('¿Cómo se llama el próximo sofkiano?', 'René Abadía', 'Timochenko', 'Iván Duque', 'María Fernanda Cabal', 'René Abadía', 'retire')
+    const question_3 = new Questions ('Nuevo empleado de Sofka:', 'Fidel Castro', 'Donald Trump', 'René Abadía', 'Barack Obama', 'René Abadía', 'retire')
+    const question_4 = new Questions ('Nuevo estudiante de Sofka:', 'Abelardo de la Espriella', 'Miguel Polo Polo', 'Lalis', 'René Abadía', 'René Abadía', 'retire')
+    const question_5 = new Questions ('Próximo estudiante sokfiano:', 'No sé quien es', 'René Abadía', 'Homero Simpson', 'Goku', 'René Abadía', 'retire')
 
     // Array Of Questions
     const questions = [question_1, question_2, question_3, question_4,  question_5]
